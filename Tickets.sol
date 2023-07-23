@@ -51,8 +51,4 @@ contract TicketingContract{
     function invalidateTickets(uint ticketId) external onlyTicketOwner(ticketId){
         tickets[ticketId].isValid = false;
     }
-
-
-
-
 }
